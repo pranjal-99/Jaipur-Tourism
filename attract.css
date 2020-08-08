@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Roboto-BlackItalic';
+	src: url('Roboto_font/Roboto-BlackItalic.ttf');
+}
+@font-face {
+	font-family: 'Roboto-MediumItalic';
+	src: url('Roboto_font/Roboto-LightItalic.ttf');
+}
+@media screen and (max-width:992px) {
+	#content-section {
+		height: 4000px;
+	}
+	}
+
+/*carousel section*/
+
+.top-section {
+	height:500px;
+}
+.d-block {
+	height:500px;
+}
+h1 {
+	font-family: Roboto-BlackItalic;
+    font-size: 3rem;
+
+}
+/*spacing section*/
+
+.spacing-section {
+	height:100px;
+}
+
+/*content section*/
+.content-section {
+	height: 2000px;
+}
+.light-clr {
+	height:400px;
+	background-color:#fefee2;
+	border-radius: 25px 25px 25px 25px;
+	transition: all 500ms linear;
+	transform: translate3d(0px,100px,0px);
+}
+.dark-clr {
+	height:400px;
+	background-color:#ced2c9;
+	border-radius: 25px 25px 25px 25px;
+	transition: all 500ms linear;
+	transform: translate3d(0px,100px,0px);
+}
+.explore-class{
+	margin: auto;
+    width: 95.55%;
+}
+h2 {
+	font-family: Roboto-LightItalic;
+    font-size: 2rem;
+}
+.light-clr.in-view {
+	transform: translate3d(0px,0px,0px);
+}
+.dark-clr.in-view {
+	transform: translate3d(0px,0px,0px);
+}

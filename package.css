@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('Roboto_font/Roboto-MediumItalic.ttf');
+}
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('Roboto_font/Roboto-LightItalic.ttf');
+}
+
+
+
+
+.card-section {
+	width: 90%;
+    margin: auto;
+}
+.spacing-section {
+	height: 100px;
+	font-family: Roboto-MediumItalic;
+	font-size: 2rem;
+	text-align: center;
+	color: #fff;
+}
+.card {
+	border-radius: 25px 25px 25px 25px;
+}
+h5 {
+	font-family: Roboto-MediumItalic;
+	font-size: 1.5rem;
+}
+.card-header {
+	font-family: Roboto-LightItalic;
+	font-size: 1rem;
+}
